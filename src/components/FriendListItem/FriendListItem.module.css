@@ -1,0 +1,30 @@
+.item {
+  width: 100px;
+  border: solid 3px #010101;
+  border-radius: 12px;
+  list-style-type: none;
+  display: flex;
+
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 10px;
+}
+
+.name {
+  font-size: 30px;
+  margin: auto;
+}
+.onlineStatus,
+.offlineStatus {
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.onlineStatus {
+  color: green;
+}
+.offlineStatus {
+  color: red;
+}
